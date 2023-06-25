@@ -1,0 +1,123 @@
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+}
+
+
+
+
+.header-website{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 45px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  font-size: 25px;
+  background-color: whitesmoke;
+}
+
+h1{
+  color: black;
+  font-size: xxx-large;
+  font-weight: bolder;
+  padding: 1%;
+  margin: 0;
+}
+
+mark{
+  background-color: yellow;
+}
+
+.embargo{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+
+
+.flex{
+  display: flex;
+  width: 100%;
+}
+
+
+
+
+.em1{
+  height: fit-content;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.img{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 20px;
+}
+
+
+.t1{
+  color: #027ad4;
+}
+
+
+@media only screen and (max-width: 900px) {
+   .embargo{
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   .em1,.img{
+    width: 100%;    
+    margin: auto;
+   }
+
+   .img{
+    height: 100%;
+   }
+
+   
+}
+
+
+.image{
+  height:615px;
+  width:315px ;
+}
+
+
+.auto{
+  margin: auto;
+}
+
+
+
+
+
